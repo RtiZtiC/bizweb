@@ -1,0 +1,73 @@
+
+.colored-section
+{
+    padding: 20px 100px;
+    background-color: #171615;
+}
+.big-heading
+{
+    color: white;
+    font-size: 3.5rem;
+}
+.row
+{
+    padding-top: 150px;
+}
+.download-button
+{
+    margin-top: 60px;
+    padding: 8px 60px;
+}
+
+.uptext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top:80px;
+}
+.section-heading{
+    font-size: 3.5rem;
+}
+#pricing{
+    padding: 50px;
+}
+.price-text{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+    text-align: center;
+  }
+  
+.card-body button{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 10px 140px;
+}
+
+.d3-div{
+    width:600px;
+    height: 700px;
+    position: relative;
+    bottom:130px;
+    left:150px;
+    border-radius: 50px;
+}
+.div3{
+    width :600px;
+    height: 500px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    height: 715px;
+
+}
+#canvas3d{
+    border-radius: 12px;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BrandVistas</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;800&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Pacifico&family=Sacramento&display=swap" rel="stylesheet">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/de33fbad5c.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</head>
+<body>
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">BrandVistas</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navtoggle01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navtoggle01">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#poster">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#press">PortFolio</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Title -->
+
+      <div class="row">
+        <div class="div3">
+          <h1 class="big-heading">Maximize Your Sales Growth with High-Quality Ads!</h1>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"> Contact Us</button>
+        </div>
+        <div class="d3-div">
+          <canvas id="canvas3d"></canvas>
+          <a class="logo" href="https://spline.design"></a>
+          <!-- Import maps polyfill -->
+          <!-- Remove this when import maps will be widely supported -->
+          <script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
+          <script type="importmap">
+            {
+              "imports": {
+                "@splinetool/runtime": "https://unpkg.com/@splinetool/runtime@0.9.297/build/runtime.js"
+              }
+            }
+          </script>
+    
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- pricing -->
+  <section class="white-section" id="pricing">
+
+    <div class="uptext">
+      <h2 class="section-heading">A plan for everyone!</h2>
+      <p>Simple and affordable price plans for your business.</p>
+    </div>
+
+
+    <div class="row">
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Basic</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$1500 / mo</h2>
+            <p>Target Audience Research</p>
+            <p>Ad Content Creation</p>
+            <p>Ads analytical report</p>
+            <p>7 day ad optimization and management</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Purchase</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Standard</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$2000 / mo</h2>
+            <p>Target Audience Research</p>
+            <p>Ad Content Creation</p>
+            <p>Ads analytical report</p>
+            <p>7 day ad optimization and management</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Purchase</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Deluxe</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$2500 / mo</h2>
+            <p>Target Audience Research</p>
+            <p>Ad Content Creation</p>
+            <p>Ads analytical report</p>
+            <p>7 day ad optimization and management</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Purchase</button>
+
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </section>
+  <script type="module" src="./main .js"></script>
+</body>
+</html>
