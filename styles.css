@@ -1,7 +1,8 @@
 
 .colored-section
 {
-    padding: 20px 100px;
+    padding: 20px 50px;
+    padding-right: 20px;
     background-color: #171615;
 }
 .big-heading
@@ -55,7 +56,7 @@
     height: 700px;
     position: relative;
     bottom:130px;
-    left:150px;
+    left:10px;
     border-radius: 50px;
 }
 .div3{
@@ -65,9 +66,16 @@
 .row{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     height: 715px;
 
 }
 #canvas3d{
     border-radius: 12px;
+}
+
+@media (max-width: 1028px) {
+  #canvas3d{
+    display: hidden;
+  }
 }
