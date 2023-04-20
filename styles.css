@@ -9,6 +9,7 @@
 {
     color: white;
     font-size: 3.5rem;
+    margin-top: 150px;
 }
 .row
 {
@@ -57,8 +58,8 @@
     width:600px;
     height: 700px;
     position: relative;
-    bottom:130px;
-    left:10px;
+    top:10px;
+    left:20px;
     border-radius: 50px;
 }
 .div3{
@@ -79,15 +80,22 @@
 @media screen and (max-width: 1280px) {
     .d3-div{
         width: 700px;
-        position: relative;
         height: 400px;
-        right:20px;
-        bottom: 100px;
+        right: 100px;
+        padding-right: 50px;
     }
     .row2{
         flex-direction: column;
-        justify-content: start;
         height: 900px;
+        align-items: center;
         
+    }
+    .big-heading{
+        text-align: center;
+    }
+    .div3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
