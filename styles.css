@@ -82,13 +82,13 @@
         width: 700px;
         height: 400px;
         right: 100px;
-        padding-right: 50px;
+        
     }
     .row2{
         flex-direction: column;
         height: 900px;
         align-items: center;
-        
+        padding-right: 50px;
     }
     .big-heading{
         text-align: center;
